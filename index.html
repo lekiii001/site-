@@ -5,10 +5,10 @@
   <title>Моя Первая Страница</title>
   <style>
     body {
-      background: linear-gradient(to right, #9fb97f, #c2d1a4); /* Градиент */
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
+      background: 
+        url('clouds.png') no-repeat center center, /* Картинка облаков */
+        linear-gradient(to right, #9fb97f, #c2d1a4); /* Резервный градиент */
+      background-size: cover; /* Растягиваем картинку на весь экран */
       color: #333;
       font-family: Arial, sans-serif;
       padding: 20px;
@@ -16,11 +16,11 @@
     }
 
     h1 {
-      color: #2e7d32;
+      color: #333;
     }
 
     h2 {
-      color: #558b2f;
+      color: #333;
     }
 
     .button {
@@ -40,25 +40,17 @@
     .button:hover {
       background-color: #d32f2f;
     }
-
-    .profile-photo {
-      margin-top: 20px;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень под фото */
-      width: 300px;
-      height: auto;
-    }
   </style>
 </head>
 <body>
 
   <h1>Добро пожаловать на мой сайт!</h1>
 
-  <p>Теперь у меня красивый фон с градиентом на основе моего любимого цвета!</p>
+  <p>Теперь у меня красивый фон с облаками и градиентом!</p>
 
   <h2>Немного обо мне:</h2>
   <ul>
-    <li>Меня зовут ...</li>
+    <li>Меня зовут Гамлет</li>
     <li>Я увлекаюсь дизайном</li>
     <li>Хочу создавать сайты</li>
   </ul>
@@ -66,11 +58,10 @@
   <h2>Связаться со мной:</h2>
   <p>Пиши на почту: <a href="mailto:example@email.com" style="color: #4caf50;">example@email.com</a></p>
 
-  <!-- Вставляем твою фотографию -->
-  <img src="m5f90.png" alt="Моё фото" class="profile-photo">
+  <img src="https://via.placeholder.com/300" alt="Моё фото" width="300">
 
   <br>
-  <a href="https://t.me/yourtelegram" class="button">Написать мне</a>
+  <a href="https://t.me/lekiii_001" class="button">Написать мне</a>
 
 </body>
 </html>
